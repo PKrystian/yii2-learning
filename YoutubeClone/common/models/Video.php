@@ -22,6 +22,10 @@ use Yii;
  */
 class Video extends \yii\db\ActiveRecord
 {
+    /*
+     * $var \yii\web\UploadedFile
+    */
+    public $video;
     /**
      * {@inheritdoc}
      */
