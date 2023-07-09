@@ -45,3 +45,4 @@ phpunit.phar
 # ignore saved videos
 
 /frontend/web/storage/videos/
+/frontend/web/storage/thumbs/
