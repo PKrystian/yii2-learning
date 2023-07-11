@@ -34,13 +34,9 @@ use yii\bootstrap5\ActiveForm;
                 </div>
             </div>
 
+            <!-- // Todo: fix css/js tags -->
             <?= $form->field($model, 'tags', [
-                'inputOptions' => [
-                    'class' => 'form-select',
-                    'id' => 'tags-input',
-                    'name' => 'tags[]',
-                    'data-allow-new' => true,
-                ]
+                'inputOptions' => ['data-role' => 'tagsinput']
             ])->textInput(['maxlength' => true]) ?>
         </div>
         <div class="col-sm-4">
