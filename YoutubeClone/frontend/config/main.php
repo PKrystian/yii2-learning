@@ -8,6 +8,7 @@ $params = array_merge(
 
 return [
     'id' => 'app-frontend',
+    'name' => 'Youtube',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'controllerNamespace' => 'frontend\controllers',
@@ -41,6 +42,9 @@ return [
             'showScriptName' => false,
             'rules' => [
             ],
+        ],
+        'assetManager' => [
+            'appendTimestamp' => true,
         ],
     ],
     'params' => $params,
