@@ -45,8 +45,8 @@ use yii\bootstrap5\ActiveForm;
                     poster="<?php echo $model->getThumbnailLink() ?>"
                     src="<?php echo $model->getVideoLink() ?>"
                     controls
-                    width="400"
-                    height="225">
+                    width=100%
+                    height=100%>
                 </video>
             </div>
             <div class="mb-3">
